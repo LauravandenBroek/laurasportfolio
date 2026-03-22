@@ -2,13 +2,13 @@ import aboutme from '../assets/aboutme.png';
 function AboutMe() {
     return ( 
     
-        <section className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 px-6 py-20 bg-[#ffffff] min-h-screen font-sans"> 
+        <section id="about-me" className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 px-6 py-20 bg-[#ffffff] min-h-screen font-sans"> 
           
           <div className="shrink-0">
             <img 
               src={aboutme}
-              alt="Portret van mij" 
-              className="w-64 h-64 md:w-80 md:h-80 lg:w-100 lg:h-full object-cover " 
+              alt="Mijn hobby's" 
+              className="w-100 h-full object-cover " 
             />
           </div>
     

@@ -1,41 +1,42 @@
 import SkillCard from './SkillCard'
+import { Code, HardDrives, Database, Gear, Palette, DeviceMobile } from 'phosphor-react';
 
 function Skills() {
     const mySkills = [
         {
             title: 'Backend Development',
-            icon: '💻',
+            icon: <HardDrives size={32} color="#FFFF" />,
             skills: ['C#', 'Java Spring Boot', 'REST APIs']
         },
         {
             title: 'Frontend Development',
-            icon: '🌐',
+            icon: <Code size={32} color="#FFFF" />,
             skills: ['HTML/CSS', 'React JS', 'Tailwind CSS']
         },
         {
             title: 'Databases',
-            icon: '🗄️',
+            icon: <Database size={32} color="#FFFF" />,
             skills: ['MSSQL', 'PostgreSQL']
         },
         {
             title: 'Tools & versie controle',
-            icon: '⚙️',
+            icon: <Gear size={32} color="#FFFF" />,
             skills: ['Docker', 'CI/CD', 'Git', 'GitHub', 'Azure DevOps', 'Jira']
         },
         {
             title: 'UI/UX',
-            icon: '🎨',
+            icon: <Palette size={32} color="#FFFF" />,
             skills: ['Figma']
         },
          {
             title: 'Mobile app development',
-            icon: '📱',
+            icon: <DeviceMobile size={32} color="#FFFF" />,
             skills: ['SwiftUI',  'XCode']
         },
     ]
 
     return (
-        <section className="py-20 px-6 bg-[#f4f1ea] min-h-screen font-sans">
+        <section id="skills" className="py-20 px-6 bg-[#f4f1ea] min-h-screen font-sans">
       <div className="max-w-6xl mx-auto">
         
         {/* Sectie Titels */}

@@ -5,27 +5,27 @@ function Education() {
         {
             instelling: 'Gilde Opleidingen',
             opleiding: 'MBO-4 Applicatie- en mediaontwikkeling',
-            jaartal: '2015-2018',
+            jaartal: ' 2015-2018',
         },
         {
             instelling: 'HAN University of Applied Sciences',
             opleiding: 'HBO Propedeuse Voeding en Diëtetiek',
-            jaartal: '2018-2019',
+            jaartal: ' 2018-2019',
         },
         {
             instelling: 'Fontys University of Applied Sciences',
             opleiding: 'HBO Propedeuse - HBO ICT',
-            jaartal: '2024-2025',
+            jaartal: ' 2024-2025',
         },
         {
             instelling: 'Fontys University of Applied Sciences',
             opleiding: 'HBO Bachelor - HBO ICT',
-            jaartal: '2024-heden',
+            jaartal: ' 2024-heden',
         },
     ]
 
     return (
-        <section className="py-20 px-6 bg-[#f4f1ea] min-h-screen font-sans">
+        <section id="education" className="py-20 px-6 bg-[#f4f1ea] min-h-screen font-sans">
             <div className="max-w-6xl mx-auto">
         
       

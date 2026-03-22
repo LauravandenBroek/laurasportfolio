@@ -25,7 +25,7 @@ function Projects() {
     ]
 
     return (
-        <section className="py-20 px-6 bg-[#ffffff] min-h-screen font-sans">
+        <section id="projects" className="py-20 px-6 bg-[#ffffff] min-h-screen font-sans">
             <div className="max-w-6xl mx-auto">
         
       

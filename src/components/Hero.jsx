@@ -1,6 +1,6 @@
 import laura from '../assets/fotovanmij.jpeg'
 function Hero() {
-return <section className=" flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 px-6 py-20 bg-[#f4f1ea] min-h-[calc(100vh-54px)] font-sans">
+return <section className=" flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 px-6 py-20 bg-[#f4f1ea] min-h-[calc(100vh)] font-sans">
       
       <div className="shrink-0">
         <img 
