@@ -17,7 +17,7 @@ function Projects() {
             gitLink:'https://github.com/LauravandenBroek/syc-backend'
         },
         {
-            title: 'Restaurant bestel applicatie',
+            title: 'Restaurant applicaties',
             photo: Restaurant,
             description: 'Een omvangrijk groepsproject waarbij we het volledige bestelproces van een restaurant hebben gedigitaliseerd. Het systeem bestaat uit vier verschillende front-ends die allemaal communiceren met één centrale Java Spring Boot backend. In dit project nam ik de technische leiding en was ik verantwoordelijk voor de backend-architectuur. Ik heb me beziggehouden met de inrichting van de CI/CD-pipeline, het deployment-proces en het opzetten van een uitgebreide teststrategie.',
         },
