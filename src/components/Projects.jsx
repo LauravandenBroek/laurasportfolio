@@ -7,20 +7,19 @@ function Projects() {
         {
             title: 'Festival planner',
             photo: Festival,
-            description: 'Tijdens semester 2 heb ik een festival planner gemaakt met C#. De app helpt gebruikers festivals te vinden. Gebruikers kunnen festivals toevoegen aan hun lijsten.',
-            gitLink:'www.git.nl'
+            description: 'Mijn eerste project waarin ik echt de diepte in ging met backend-structuur. Voor deze C# applicatie heb ik een 3-lagen architectuur toegepast en gebruikgemaakt van OOP-principes met anemic models. De focus lag op een duidelijke scheiding tussen de data en de logica, waardoor gebruikers op een stabiele manier festivals kunnen vinden en hun eigen planning kunnen beheren.',
+            gitLink:'https://github.com/LauravandenBroek/FestivalApp'
         },
         {
             title: 'Cycle syncing app',
             photo: CycleSyncing,
-            description: 'Tijdens semester 3 heb ik een cycle syncing applicatie gemaakt met Java Spring Boot en React JS. Deze app helpt vrouwen om hun cyclus bij te houden en geeft gepersonaliseerde tips op basis van de verschillende fasen van de cyclus.',
-            gitLink:'www.git.nl'
+            description: 'Een full-stack project en de eerste applicatie waarbij ik de backend en frontend volledig gescheiden heb opgezet met Java Spring Boot en React. De backend volgt een 3-lagen architectuur met anemic models voor een strakke datastructuur. Naast de functionele kant (inclusief een geïntegreerde AI-chat voor advies) heb ik me bij dit project gericht op de professionele workflow: ik heb een CI/CD-pipeline ingericht voor het deploymentproces. Omdat het om persoonlijke data gaat, heb ik toegepast onderzoek gedaan naar security-standaarden.',
+            gitLink:'https://github.com/LauravandenBroek/syc-backend'
         },
         {
             title: 'Restaurant bestel applicatie',
             photo: Restaurant,
-            description: 'Tijdens semester 3 heb ik gewerkt aan een groepsproject waarbij we het bestel proces voor een restaurant hebben gedigitaliseerd. Deze hebben we gemaakt mijn Java Spring boot en React JS. ',
-            gitLink:'www.git.nl'
+            description: 'Een omvangrijk groepsproject waarbij we het volledige bestelproces van een restaurant hebben gedigitaliseerd. Het systeem bestaat uit vier verschillende front-ends die allemaal communiceren met één centrale Java Spring Boot backend. In dit project nam ik de technische leiding en was ik verantwoordelijk voor de backend-architectuur. Ik heb me beziggehouden met de inrichting van de CI/CD-pipeline, het deployment-proces en het opzetten van een uitgebreide teststrategie.',
         },
     ]
 
@@ -36,7 +35,7 @@ function Projects() {
                 </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 {myProjects.map((project, index) => (
                     <ProjectCard 
                     key={index}

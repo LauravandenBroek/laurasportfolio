@@ -21,16 +21,14 @@ return <section className=" flex flex-col md:flex-row items-center justify-cente
         </h1>
 
         <p className="text-gray-600 leading-relaxed text-lg mb-8">
-          Gepassioneerd over het bouwen van mooie en functionele applicaties. 
-          Ik hou van clean code en het leren van nieuwe technologieën. 
-          Op zoek naar uitdagende startersmogelijkheden waar ik mijn passie kan delen! 
+          Ik ben een Software Engineering-student die het beste van twee werelden combineert: gestructureerd en logisch denken voor de backend, en creatieve oplossingen voor de frontend. Ik geniet ervan om ideeën te vertalen naar complete, gebruiksvriendelijke applicaties. <br/> <br/> Tijdens projecten neem ik graag het initiatief en ik heb een sterke visie op professionele standaarden en persoonlijke groei. Ik ben op zoek naar een uitdagende startersfunctie waar ik deze balans kan inzetten en verder kan ontwikkelen.
         </p>
 
     
 
         <div className="flex gap-4">
-          <button className="text-white bg-[#7ea286] hover:bg-[#008c42] font-medium rounded-lg text-sm px-4 py-2.5 text-center leading-5 border-none">LinkedIn</button>
-          <button className="text-white bg-[#7ea286] hover:bg-[#008c42] font-medium rounded-lg text-sm px-4 py-2.5 text-center leading-5 border-none">✉️ Mail </button>
+          <a href="https://www.linkedin.com/in/laura-van-den-broek-baba532a8" target="_blank" rel="noopener noreferrer" className="text-white bg-[#7ea286] hover:bg-[#008c42] font-medium rounded-lg text-sm px-4 py-2.5 text-center leading-5 border-none">LinkedIn</a>
+          <a href="mailto:laura_vandenbroek@outlook.com" className="text-white bg-[#7ea286] hover:bg-[#008c42] font-medium rounded-lg text-sm px-4 py-2.5 text-center leading-5 border-none">Mail </a>
         </div>
 
       </div>
