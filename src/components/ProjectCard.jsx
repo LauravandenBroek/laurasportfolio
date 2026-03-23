@@ -10,7 +10,7 @@ function ProjectCard({ photo, title, description, gitLink }) {
                     <h3 className="text-xl font-bold text-gray-800">{title}</h3>
                 </div>
 
-                <p className="text-gray-600 leading-relaxed text-lg mb-8">
+                <p className="text-gray-600 leading-relaxed whitespace-pre-line text-lg mb-8">
                     {description}
                 </p>
             </div>

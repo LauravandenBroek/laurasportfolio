@@ -13,13 +13,13 @@ function Projects() {
         {
             title: 'Cycle syncing app',
             photo: CycleSyncing,
-            description: 'Een full-stack project en de eerste applicatie waarbij ik de backend en frontend volledig gescheiden heb opgezet met Java Spring Boot en React. De backend volgt een 3-lagen architectuur met anemic models voor een strakke datastructuur. Naast de functionele kant (inclusief een geïntegreerde AI-chat voor advies) heb ik me bij dit project gericht op de professionele workflow: ik heb een CI/CD-pipeline ingericht voor het deploymentproces. Omdat het om persoonlijke data gaat, heb ik toegepast onderzoek gedaan naar security-standaarden.',
+            description: 'Een full-stack project en de eerste applicatie waarbij ik de backend en frontend volledig gescheiden heb opgezet met Java Spring Boot en React. De backend volgt een 3-lagen architectuur met anemic models voor een strakke datastructuur. \n\n Naast de functionele kant (inclusief een geïntegreerde AI-chat voor advies) heb ik me bij dit project gericht op de professionele workflow: ik heb een CI/CD-pipeline ingericht voor het deploymentproces. Omdat het om persoonlijke data gaat, heb ik toegepast onderzoek gedaan naar security-standaarden.',
             gitLink:'https://github.com/LauravandenBroek/syc-backend'
         },
         {
             title: 'Restaurant applicaties',
             photo: Restaurant,
-            description: 'Een omvangrijk groepsproject waarbij we het volledige bestelproces van een restaurant hebben gedigitaliseerd. Het systeem bestaat uit vier verschillende front-ends die allemaal communiceren met één centrale Java Spring Boot backend. In dit project nam ik de technische leiding en was ik verantwoordelijk voor de backend-architectuur. Ik heb me beziggehouden met de inrichting van de CI/CD-pipeline, het deployment-proces en het opzetten van een uitgebreide teststrategie.',
+            description: 'Een omvangrijk groepsproject waarbij we het volledige bestelproces van een restaurant hebben gedigitaliseerd. Het systeem bestaat uit vier verschillende front-ends die allemaal communiceren met één centrale Java Spring Boot backend. \n\n In dit project nam ik de technische leiding en was ik verantwoordelijk voor de backend-architectuur. Ik heb me beziggehouden met de inrichting van de CI/CD-pipeline, het deployment-proces en het opzetten van een uitgebreide teststrategie.',
         },
     ]
 
