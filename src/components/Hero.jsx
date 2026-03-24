@@ -1,6 +1,6 @@
 import laura from '../assets/fotovanmij.jpeg'
 function Hero() {
-return <section className=" flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 px-6 py-20 bg-[#f4f1ea] min-h-[calc(100vh)] font-sans">
+return <section id="laura" className=" flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 px-6 py-20 bg-[#f4f1ea] min-h-[calc(100vh)] font-sans">
       
       <div className="shrink-0">
         <img 
@@ -21,7 +21,7 @@ return <section className=" flex flex-col md:flex-row items-center justify-cente
         </h1>
 
         <p className="text-gray-600 leading-relaxed text-lg mb-8">
-          Ik ben een Software Engineering-student die het beste van twee werelden combineert: gestructureerd en logisch denken voor de backend, en creatieve oplossingen voor de frontend. Ik geniet ervan om ideeën te vertalen naar complete, gebruiksvriendelijke applicaties. <br/> <br/> Tijdens projecten neem ik graag het initiatief en ik heb een sterke visie op professionele standaarden en persoonlijke groei. Ik ben op zoek naar een uitdagende startersfunctie waar ik deze balans kan inzetten en verder kan ontwikkelen.
+          Ik ben een Software Engineering-student die het beste van twee werelden combineert: gestructureerd en logisch denken voor de backend, en creatieve oplossingen voor de frontend. Ik geniet ervan om ideeën te vertalen naar complete, gebruiksvriendelijke applicaties. <br/> <br/> Tijdens projecten neem ik graag het initiatief en ik heb een sterke visie op professionele standaarden en persoonlijke groei. Ik ben op zoek naar een uitdagende parttime startersfunctie (3-4 dagen per week) die ik kan invullen als onderdeel van mijn duaal traject (hbo-bachelor), zodat ik mijn passie en kennis direct in de praktijk kan inzetten.
         </p>
 
     

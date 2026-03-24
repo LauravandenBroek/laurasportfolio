@@ -5,19 +5,19 @@ import Festival from '../assets/festivalplanner.png'
 function Projects() {
     const myProjects = [
         {
-            title: 'Festival planner',
+            title: 'Festivalplanner',
             photo: Festival,
             description: 'Mijn eerste project waarin ik echt de diepte in ging met backend-structuur. Voor deze C# applicatie heb ik een 3-lagen architectuur toegepast en gebruikgemaakt van OOP-principes met anemic models. De focus lag op een duidelijke scheiding tussen de data en de logica, waardoor gebruikers op een stabiele manier festivals kunnen vinden en hun eigen planning kunnen beheren.',
             gitLink:'https://github.com/LauravandenBroek/FestivalApp'
         },
         {
-            title: 'Cycle syncing app',
+            title: 'Cycle-syncing applicatie',
             photo: CycleSyncing,
-            description: 'Een full-stack project en de eerste applicatie waarbij ik de backend en frontend volledig gescheiden heb opgezet met Java Spring Boot en React. De backend volgt een 3-lagen architectuur met anemic models voor een strakke datastructuur. \n\n Naast de functionele kant (inclusief een geïntegreerde AI-chat voor advies) heb ik me bij dit project gericht op de professionele workflow: ik heb een CI/CD-pipeline ingericht voor het deploymentproces. Omdat het om persoonlijke data gaat, heb ik toegepast onderzoek gedaan naar security-standaarden.',
+            description: 'Een full-stack project en de eerste applicatie waarbij ik de backend en frontend volledig gescheiden heb opgezet met Java Spring Boot en React. De backend volgt een 3-lagen architectuur met anemic models voor een strakke datastructuur. \n\n De kern van de applicatie draait om het berekenen van cyclusdata om op basis daarvan gepersonaliseerd advies te geven aan gebruikers. Voor extra interactie en verdieping heb ik een AI-chat geïntegreerd. Naast de functionele kant heb ik me bij dit project gericht op de professionele workflow: ik heb een CI/CD-pipeline ingericht voor het deploymentproces. Omdat het om persoonlijke data gaat, heb ik toegepast onderzoek gedaan naar security-standaarden.',
             gitLink:'https://github.com/LauravandenBroek/syc-backend'
         },
         {
-            title: 'Restaurant applicaties',
+            title: 'Restaurantapplicaties',
             photo: Restaurant,
             description: 'Een omvangrijk groepsproject waarbij we het volledige bestelproces van een restaurant hebben gedigitaliseerd. Het systeem bestaat uit vier verschillende front-ends die allemaal communiceren met één centrale Java Spring Boot backend. \n\n In dit project nam ik de technische leiding en was ik verantwoordelijk voor de backend-architectuur. Ik heb me beziggehouden met de inrichting van de CI/CD-pipeline, het deployment-proces en het opzetten van een uitgebreide teststrategie.',
         },

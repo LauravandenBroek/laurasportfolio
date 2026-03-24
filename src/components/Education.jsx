@@ -32,7 +32,7 @@ function Education() {
             <div className="text-center mb-16">
                 <h2 className="text-4xl font-bold text-[#7ea286] mb-4">Mijn opleidingen</h2>
                 <p className="text-gray-600 text-lg">
-                    Mijn academische achtergrond 🎓
+                    Mijn educatieve achtergrond 🎓
                 </p>
             </div>
             

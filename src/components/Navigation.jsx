@@ -22,8 +22,9 @@ function Navigation() {
                 </div>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex gap-8">
-                    <li><button onClick={() => scrollToSection('about-me')} className="text-gray-700 hover:text-[#7ea286] transition-colors">Over Mij</button></li>
+                <ul className="hidden md:flex gap-8 text-xl">
+                    <li><button onClick={() => scrollToSection('laura')} className="text-gray-700 hover:text-[#7ea286] transition-colors">Laura</button></li>
+                    <li><button onClick={() => scrollToSection('about-me')} className="text-gray-700  hover:text-[#7ea286] transition-colors">Over Mij</button></li>
                     <li><button onClick={() => scrollToSection('skills')} className="text-gray-700 hover:text-[#7ea286] transition-colors">Skills</button></li>
                     <li><button onClick={() => scrollToSection('projects')} className="text-gray-700 hover:text-[#7ea286] transition-colors">Projecten</button></li>
                     <li><button onClick={() => scrollToSection('education')} className="text-gray-700 hover:text-[#7ea286] transition-colors">Opleiding</button></li>
@@ -39,8 +40,9 @@ function Navigation() {
 
             {/* Mobile Menu */}
             {isMenuOpen && (
-                <div className="md:hidden mt-4">
-                    <ul className="flex flex-col items-center gap-4">
+                <div className="md:hidden mt-4 text-xl">
+                    <ul className="flex flex-col gap-4">
+                        <li><button onClick={() => scrollToSection('laura')} className="text-gray-700 hover:text-[#7ea286] transition-colors">Laura</button></li>
                         <li><button onClick={() => scrollToSection('about-me')} className="text-gray-700 hover:text-[#7ea286] transition-colors">Over Mij</button></li>
                         <li><button onClick={() => scrollToSection('skills')} className="text-gray-700 hover:text-[#7ea286] transition-colors">Skills</button></li>
                         <li><button onClick={() => scrollToSection('projects')} className="text-gray-700 hover:text-[#7ea286] transition-colors">Projecten</button></li>
