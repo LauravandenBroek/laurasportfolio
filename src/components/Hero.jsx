@@ -21,7 +21,7 @@ return <section id="laura" className=" flex flex-col md:flex-row items-center ju
         </h1>
 
         <p className="text-gray-600 leading-relaxed text-lg mb-8">
-          Ik ben een Software Engineering-student die het beste van twee werelden combineert: gestructureerd en logisch denken voor de backend, en creatieve oplossingen voor de frontend. Ik geniet ervan om ideeën te vertalen naar complete, gebruiksvriendelijke applicaties. <br/> <br/> Tijdens projecten neem ik graag het initiatief en ik heb een sterke visie op professionele standaarden en persoonlijke groei. Ik ben op zoek naar een uitdagende parttime startersfunctie (3-4 dagen per week) die ik kan invullen als onderdeel van mijn duaal traject (hbo-bachelor), zodat ik mijn passie en kennis direct in de praktijk kan inzetten.
+          Ik ben een Software Engineering-student die het beste van twee werelden combineert: gestructureerd en logisch denken voor de backend, en creatieve oplossingen voor de frontend. Ik geniet ervan om ideeën te vertalen naar complete, gebruiksvriendelijke applicaties. <br/> <br/> Tijdens projecten neem ik graag het initiatief en ik heb een sterke visie op professionele standaarden en persoonlijke groei. Momenteel volg ik mijn opleiding nog voltijd, maar ik ben klaar voor de overstap naar het bedrijfsleven. Ik zoek een uitdagende startersfunctie voor 32 uur per week, waarin ik mijn hbo-bachelor in deeltijd kan voortzetten.
         </p>
 
     
